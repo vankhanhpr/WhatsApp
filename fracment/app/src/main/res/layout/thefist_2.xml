@@ -8,14 +8,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0sp"
-        android:paddingTop="15sp"
-        android:layout_weight="1">
+        android:paddingTop="10sp"
+        android:layout_weight="1.5">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:textSize="16sp"
-            android:textColor="@color/green_k"
+            android:textColor="@color/green"
             android:text="Verify your phone number"
             />
     </LinearLayout>
@@ -30,7 +30,7 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:textSize="16sp"
-            android:textColor="@color/black_k"
+            android:textColor="@color/blue"
             android:text="@string/sendmessage"
             />
     </LinearLayout>
@@ -87,16 +87,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0sp"
-        android:layout_weight="5"
+        android:layout_weight="4.5"
         android:gravity="center|bottom"
-        android:paddingBottom="10sp"
+        android:paddingBottom="30sp"
         android:orientation="vertical">
         <Button
             android:id="@+id/btn_next"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Next"
-            android:background="@color/green1_k"/>
+            android:textColor="@color/white"
+            android:background="@color/blue"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="10dp"/>
