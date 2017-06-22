@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".loginkl"
+            android:name=".loginkt2"
             android:label="flagment"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -26,6 +26,7 @@
         </activity>
         <activity android:name=".main"></activity>
         <activity android:name=".thefirst_1kt"/>
+        <activity android:name=".loginkt3"/>
     </application>
 
 
