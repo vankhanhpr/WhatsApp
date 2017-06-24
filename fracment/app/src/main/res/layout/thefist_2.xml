@@ -30,7 +30,7 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:textSize="16sp"
-            android:textColor="@color/blue"
+            android:textColor="@color/black"
             android:text="@string/sendmessage"
             />
     </LinearLayout>
@@ -46,7 +46,7 @@
         <TextView
             android:layout_width="0sp"
             android:layout_height="match_parent"
-            android:textColor="@color/black_k"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:text="Brasil"
             android:gravity="center"
@@ -79,7 +79,7 @@
             android:layout_height="match_parent"
             android:layout_weight="6"
             android:textSize="15sp"
-            android:textColor="@color/black_k"
+            android:textColor="@color/black"
             android:text="phone number"/>
 
     </LinearLayout>
@@ -93,11 +93,11 @@
         android:orientation="vertical">
         <Button
             android:id="@+id/btn_next"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
-            android:textColor="@color/white"
-            android:background="@color/blue"/>
+            android:textColor="@color/while1"
+            android:background="@color/green"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="10dp"/>

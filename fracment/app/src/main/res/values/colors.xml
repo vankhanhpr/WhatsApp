@@ -3,8 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="blue">#0000FF</color>
-    <color name="white">#FFFFFF</color>
-    <color name="green">#00CC00</color>
-    <color name="black_k">#000</color>
+
+    <color name="main">#075E54</color>
+    <color name="while1">#FFF</color>
+    <color name="green">#4ABC34</color>
+    <color name="black">#000000</color>
 </resources>

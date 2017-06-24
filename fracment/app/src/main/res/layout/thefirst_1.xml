@@ -16,12 +16,12 @@
         android:weightSum="4"
         >
         <TextView
-            android:text="Wellcome to ALTISSS :v"
+            android:text="Wellcome to ALTISSS"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:textSize="20sp"
-            android:textColor="@color/blue"
+            android:textColor="@color/green"
             android:layout_weight="1"
             />
         <LinearLayout
@@ -33,7 +33,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/kimcuong"
+                android:background="@drawable/icon_whasapp"
                 />
         </LinearLayout>
 
@@ -53,15 +53,16 @@
             android:layout_height="0dp"
             android:gravity="center"
             android:layout_weight="1"
+            android:textColor="@color/black"
             android:textSize="13dp"
             />
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:text="Đồng Ý và Đăng Nhập"
-            android:textColor="@color/white"
+            android:textColor="@color/while1"
             android:layout_weight="0.9"
-            android:background="@color/blue"
+            android:background="@color/green"
             android:id="@+id/btn_thefirst"
             />
     </LinearLayout>

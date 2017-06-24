@@ -62,8 +62,8 @@
             android:layout_height="wrap_content"
             android:text="NEXT"
             android:gravity="center"
-            android:background="@color/blue"
-            android:textColor="@color/white"
+            android:background="@color/green"
+            android:textColor="@color/while1"
             />
     </LinearLayout>
 
